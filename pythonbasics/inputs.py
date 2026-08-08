@@ -3,3 +3,12 @@
 print("HELLO!")
 print("My name is TASKEEN ZAHRA")
 print("DEAR future me, i am going to start my python journey")
+#--------------------------------------------------------------------
+# taking input(name) from user
+#here is the a built in funnction to take input from the user
+name=input("Enter your name: ")
+print(name)
+#--------------------------------------------------------------------
+#taking input(age) from user
+age=input("enter your age:")
+print("your age is:", age)
