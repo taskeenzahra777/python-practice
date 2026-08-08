@@ -1,3 +1,4 @@
+#=======================LEVEL 1========================
 #In this file i am going to use my all concepts about inputs in python 
 #HERE IS MY FIRTS PYTHON PROGRAM...
 '''print("HELLO!")
@@ -79,6 +80,45 @@ city=input("enter your city name: ")
 country=input("enter your country name: ")
 print("my name is",name,"i am",age,"years old. i study in",university,"and i live in",city,country)
 '''
+#===============================LEVEL 2========================
+#In this level i am going to take integer input from the user and play  with it
+#i use built in function int() to take int type input from the user
+#ADDITION
+'''num1=int(input("enter num1: "))
+num2=int(input("enter num2: "))'''
+'''print(num1+num2)'''
+#i also can do the same addition by this way....
+'''num1=int(input("enter num1: "))
+num2=int(input("enter num2: "))
+num3=num1+num2
+print(num3)'''
+#----------------------------------------------------------------------
+#SUBTRACTION
+'''num1=int(input("enter num1:"))
+num2=int(input("enter num2:"))
+print(num1-num2)'''
+#=---------------------------------------------------------------------
+#MULTIPLICATION
+'''num1=int(input("enter num1:"))
+num2=int(input("enter num2:"))
+print(num1*num2)'''
+#----------------------------------------------------------------------
+#DIVISION
+'''num1=int(input("enter num1:"))
+num2=int(input("enter num2:"))
+print(num1/num2)'''
+#----------------------------------------------------------------------
+#MODULUS
+'''num1=int(input("enter num1:"))
+num2=int(input("enter num2:"))
+print(num1%num2)'''
+#----------------------------------------------------------------------
+#POWER
+'''num1=int(input("enter num1:"))
+num2=int(input("enter num2:"))
+print(num1**num2)'''
+
+
 
 
 
