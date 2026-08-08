@@ -6,7 +6,7 @@ print("My name is TASKEEN ZAHRA")
 print("DEAR future me, i am going to start my python journey")'''
 #--------------------------------------------------------------------
 # taking input(name) from user
-#here is the a built in funnction to take input from the user
+#here is a built in funnction to take input from the user
 '''name=input("Enter your name: ")
 print(name)'''
 #--------------------------------------------------------------------
@@ -117,6 +117,54 @@ print(num1%num2)'''
 '''num1=int(input("enter num1:"))
 num2=int(input("enter num2:"))
 print(num1**num2)'''
+#----------------------------------------------------------------------------------------
+'''print("enter u r age and i will show after 10 years how old u will be")
+age=int(input("enter u r age:"))
+old=age+10
+younge=age-5
+print("after 10 years",old)
+print("before 5 years",younge)'''
+#-------------------------------------------------------
+'''currntyear=int(input("enter current year:"))
+bd=int(input("enter your BD year and i will guess your ageee:"))
+age=currntyear-bd
+print(age)'''
+#---------------------------------------------------------------------------
+#-------------------areas of different shapez------------------------------------------
+'''length=int(input("enter the length to find the area of rectaangle:"))
+width=int(input("enter the width to find the area of rectangle:"))
+area=length*width
+print(area)'''
+#------------------------------------------------------------------------------------
+'''length=int(input("enter the length to find the area of triangle:"))
+width=int(input("enter the width to find the area of triangle:"))
+area=1/2*length*width
+print(area)'''
+#here is a twist in python when we divide two int type things the result will be in points
+#----------------------------------------------------------------------------------
+# perimeter of rec:2(l+w)///perimwter of tri: a+b+c//perimeter of sq:4a
+# i copy  the formulaz of perimeter of  different shapes from inernet and now going to play with them
+'''length=int(input("enter the length to find the area of square:"))
+area=length*length
+print(area)'''
+#----------------------------------------------------------------
+'''r=int(input("enter the radius to find the area og circle:"))
+pi=3.14
+area=2*pi*r*r
+print(area)'''
+#--------------------------------------------------------------------------------------------------------
+'''r=int(input("enter the radius to find the diameter:"))
+d=2*r
+print(d)'''
+#-----------------------------------------------------------------------------------------------------------
+#let's play with time
+'''hr=int(input('enter the hour:'))
+min=hr*60
+sec=hr*(60*60)
+day=hr/24
+print("the hour",hr,"has",min,"minutes and",sec,"seconds and ",day,"day")'''
+
+
 
 
 
