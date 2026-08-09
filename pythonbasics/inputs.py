@@ -182,7 +182,7 @@ print('even:',even)
 print('odd:',odd)'''
 #--------------------------------------------------------
 # take marks of 5 subjects and print their total/percent
-print("total marks are 100 of 5 subjects")
+'''print("total marks are 100 of 5 subjects")
 sub1=int(input('enter the marks of pf:'))
 sub2=int(input('enter the marks of ict:'))
 sub3= int(input('enter the marks of functional eng:'))
@@ -192,7 +192,15 @@ total=100
 obtained=sub1+sub2+sub3+sub4+sub5
 per=obtained/total*100
 print("you got ",obtained,"marks")
-print("your percentage is:",per,"%")
+print("your percentage is:",per,"%")'''
+#----------------------------------------
+#take quantity and price from the user and calculate total bill
+'''quant=int(input('enter tha quantity of the product:'))
+price=int(input("enter the price of the prodeuct:"))
+bill=quant*price
+print('your total bill is;', bill)'''
+#---------------------------------------------------------------------
+
 
 
 
