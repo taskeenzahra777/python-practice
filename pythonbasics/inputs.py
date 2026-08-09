@@ -163,6 +163,9 @@ min=hr*60
 sec=hr*(60*60)
 day=hr/24
 print("the hour",hr,"has",min,"minutes and",sec,"seconds and ",day,"day")'''
+#-----------------------------------------------------------------------------------
+#=========================level 3============================
+#today, im going to take different data type as input from the user and print them
 
 
 
