@@ -167,7 +167,7 @@ print("the hour",hr,"has",min,"minutes and",sec,"seconds and ",day,"day")'''
 #=========================level 3============================
 #today, im going to take different data type as input from the user and print them
 #taking 5 input num from user and print their summ/av/even/odd
-num1=int(input("enter number 1:"))
+'''num1=int(input("enter number 1:"))
 num2=int(input("enter number 2:"))
 num3=int(input("enter number 3:"))
 num4=int(input("enter number 4:"))
@@ -179,7 +179,23 @@ odd=sum%2!=0
 print("sum of all numberz is:", sum)
 print('avg:',avg)
 print('even:',even)
-print('odd:',odd)
+print('odd:',odd)'''
+#--------------------------------------------------------
+# take marks of 5 subjects and print their total/percent
+print("total marks are 100 of 5 subjects")
+sub1=int(input('enter the marks of pf:'))
+sub2=int(input('enter the marks of ict:'))
+sub3= int(input('enter the marks of functional eng:'))
+sub4=int(input('enter the marks of physics:'))
+sub5=int(input('enter the marks of pre-cal:'))
+total=100
+obtained=sub1+sub2+sub3+sub4+sub5
+per=obtained/total*100
+print("you got ",obtained,"marks")
+print("your percentage is:",per,"%")
+
+
+
 
 
 
