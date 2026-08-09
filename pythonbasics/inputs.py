@@ -166,6 +166,20 @@ print("the hour",hr,"has",min,"minutes and",sec,"seconds and ",day,"day")'''
 #-----------------------------------------------------------------------------------
 #=========================level 3============================
 #today, im going to take different data type as input from the user and print them
+#taking 5 input num from user and print their summ/av/even/odd
+num1=int(input("enter number 1:"))
+num2=int(input("enter number 2:"))
+num3=int(input("enter number 3:"))
+num4=int(input("enter number 4:"))
+num5=int(input("enter number 5:"))
+sum=num1+num2+num3+num4+num5
+avg=sum/5
+even=sum%2==0
+odd=sum%2!=0
+print("sum of all numberz is:", sum)
+print('avg:',avg)
+print('even:',even)
+print('odd:',odd)
 
 
 
