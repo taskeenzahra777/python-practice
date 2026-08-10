@@ -25,4 +25,11 @@ print("-------------------------------------------------------------------------
 print('================================================================================')
 print('=                          STUDENT INFORMATION                                 =')
 print('================================================================================')
-print('=    NAME:',stuname),("FATHERNAME:",fname),("MOTHERNAME",mname)
+print('=    NAME:',stuname),("FATHERNAME:",fname),("MOTHERNAME",mname),("SIBLINGS:",s)
+print("CNIC:",cn)
+print("PHONE NUMBER:",pho),("LANGUAGE:",l)
+print("ADRESS:",addr),("CITY:",city),("COUNTRY:",country)
+print("Email:",mail),("GENDER:",g),("STATUS:",sta)
+print("BLOOD GROUP:",b),("WEIGHT:",weight),("GENDER:",g)
+print("REILIGION:",r),("CAST:",cast)
+
