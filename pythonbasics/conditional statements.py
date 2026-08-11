@@ -74,7 +74,7 @@ elif mn==12:
 else:
     print("Error!!")"""
 #----------------------------------------------------------------------------
-am=int(input('Enter shopping amount to check the eligibility for discount: '))
+'''am=int(input('Enter shopping amount to check the eligibility for discount: '))
 if am==10000:
     print("30% ")
 elif am==5000:
@@ -84,6 +84,17 @@ elif am==3000:
 elif am==1000:
     print("no discount")
 else:
-    print("Error!!")
+    print("Error!!")'''
+#---------------------------------------------------------
+#=============================Logical Conditions========================================
+num=int(input('Enter number to check weather it is +tive and even/odd:'))
+if num>0 and num%2==0:
+    print("It is positive and even")
+elif num<0 and num%2!=0:
+    print("it is positive and odd")
+elif num==0:
+    print("it is zero")
+else:
+    print('error!')
 
 
