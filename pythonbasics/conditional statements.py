@@ -1,11 +1,21 @@
 #in this file i am going to write the code related to conditional statments only...
 #================================basic-===============================
-n=int("Enter any number to check weather it is even/odd/zero: ")
+'''n=int(input("Enter any number to check weather it is even/odd/zero: "))
 if n%2==0:
     print("This number is even")
 elif n%2!=0:
     print("This number is odd")
 elif n==0:
     print("This number is zero")
+else:
+    print("Error!!")'''
+#-----------------------------------------------------------
+age=int(input("Enter your age to check the status: "))
+if age<18:
+    print("Child")
+elif age==18:
+    print("Teenage")
+elif age>18:
+    print("adult")
 else:
     print("Error!!")
