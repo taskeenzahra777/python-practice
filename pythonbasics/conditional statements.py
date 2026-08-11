@@ -20,12 +20,28 @@ elif age>18:
 else:
     print("Error!!")'''
 #---------------------------------------------------------------------------------
-t=int(input("Enter Temperature in degree celceious: "))
+'''t=int(input("Enter Temperature in degree celceious: "))
 if t<=20:
     print("COLD")
 elif t>=30:
     print("HOT")
 elif t==25:
     print("NORMAL")
+else:
+    print("Error!!")'''
+#------------------------------------------------------------------
+m=int(input("Enter your marks to check the grades: "))
+if m<=20:
+    print("F")
+elif m==30:
+    print("E")
+elif m==40:
+    print("D")
+elif m==50:
+    print("C")
+elif m==75:
+    print("B")
+elif m>=85:
+    print("A")
 else:
     print("Error!!")
