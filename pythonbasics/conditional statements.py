@@ -30,7 +30,7 @@ elif t==25:
 else:
     print("Error!!")'''
 #------------------------------------------------------------------
-m=int(input("Enter your marks to check the grades: "))
+'''m=int(input("Enter your marks to check the grades: "))
 if m<=20:
     print("F")
 elif m==30:
@@ -44,4 +44,35 @@ elif m==75:
 elif m>=85:
     print("A")
 else:
+    print("Error!!")'''
+#-------------------------------------------------------
+mn=int(input("Enter any numbers from 1-12 to see the name of months: "))
+if mn==1:
+    print("January")
+elif mn==2:
+    print("Febraury")
+elif mn==3:
+    print("March")
+elif mn==4:
+    print("April")
+elif mn==5:
+    print("May")
+elif mn==6:
+    print("June")
+elif mn==7:
+    print("July")
+elif mn==8:
+    print("August")
+elif mn==9:
+    print("September")
+elif mn==10:
+    print("October")
+elif mn==11:
+    print("November")
+elif mn==12:
+    print("December")
+else:
     print("Error!!")
+
+
+
