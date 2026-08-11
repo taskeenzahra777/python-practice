@@ -10,12 +10,22 @@ elif n==0:
 else:
     print("Error!!")'''
 #-----------------------------------------------------------
-age=int(input("Enter your age to check the status: "))
+'''age=int(input("Enter your age to check the status: "))
 if age<18:
     print("Child")
 elif age==18:
     print("Teenage")
 elif age>18:
     print("adult")
+else:
+    print("Error!!")'''
+#---------------------------------------------------------------------------------
+t=int(input("Enter Temperature in degree celceious: "))
+if t<=20:
+    print("COLD")
+elif t>=30:
+    print("HOT")
+elif t==25:
+    print("NORMAL")
 else:
     print("Error!!")
