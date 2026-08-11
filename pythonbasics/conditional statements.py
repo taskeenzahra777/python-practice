@@ -46,7 +46,7 @@ elif m>=85:
 else:
     print("Error!!")'''
 #-------------------------------------------------------
-mn=int(input("Enter any numbers from 1-12 to see the name of months: "))
+"""mn=int(input("Enter any numbers from 1-12 to see the name of months: "))
 if mn==1:
     print("January")
 elif mn==2:
@@ -72,7 +72,18 @@ elif mn==11:
 elif mn==12:
     print("December")
 else:
+    print("Error!!")"""
+#----------------------------------------------------------------------------
+am=int(input('Enter shopping amount to check the eligibility for discount: '))
+if am==10000:
+    print("30% ")
+elif am==5000:
+    print("10%")
+elif am==3000:
+    print("5%")
+elif am==1000:
+    print("no discount")
+else:
     print("Error!!")
-
 
 
