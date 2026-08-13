@@ -87,7 +87,7 @@ else:
     print("Error!!")'''
 #---------------------------------------------------------
 #=============================Logical Conditions========================================
-num=int(input('Enter number to check weather it is +tive and even/odd:'))
+'''num=int(input('Enter number to check weather it is +tive and even/odd:'))
 if num>0 and num%2==0:
     print("It is positive and even")
 elif num<0 and num%2!=0:
@@ -95,6 +95,13 @@ elif num<0 and num%2!=0:
 elif num==0:
     print("it is zero")
 else:
-    print('error!')
-
+    print('error!')'''
+#------------------------------------------------
+#any number divisible by 3 and 5
+num=int(input("Enter the number: "))
+if num%3==0 and num%5==0:
+    print("Yes, it is divisible both 3 and 5...")
+else:
+    print("iincorrect ans...")
+    
 
