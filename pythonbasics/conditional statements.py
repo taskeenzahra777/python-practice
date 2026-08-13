@@ -98,10 +98,19 @@ else:
     print('error!')'''
 #------------------------------------------------
 #any number divisible by 3 and 5
-num=int(input("Enter the number: "))
+'''num=int(input("Enter the number: "))
 if num%3==0 and num%5==0:
     print("Yes, it is divisible both 3 and 5...")
 else:
-    print("iincorrect ans...")
-    
+    print("iincorrect ans...")'''
+#---------------------------------------------------------------------
+# in this code i want to check the eligibility to sit in ppr hall
+r=int(input("Enter your rollnumber:"))
+a=int(input("Enter your attedance:"))
+if a>=75:
+    print(r,"your attendance is",a,'%','u r eligible for ppr')
+if a<75:
+        print("not eligible")
+
+
 
