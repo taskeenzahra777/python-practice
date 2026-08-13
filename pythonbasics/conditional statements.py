@@ -105,12 +105,20 @@ else:
     print("iincorrect ans...")'''
 #---------------------------------------------------------------------
 # in this code i want to check the eligibility to sit in ppr hall
-r=int(input("Enter your rollnumber:"))
+"""r=int(input("Enter your rollnumber:"))
 a=int(input("Enter your attedance:"))
 if a>=75:
     print(r,"your attendance is",a,'%','u r eligible for ppr')
 if a<75:
-        print("not eligible")
+        print("not eligible")"""
+#----------------------------------------------------------
+ #my mini login system
+name=str(input("Enter name:"))
+passward=int(input("Enter passward:"))
+if name=='Taskeen Zahra' and passward==786786:
+    print("Login sucessfully")
+else:
+    print("Error")       
 
 
 
