@@ -113,12 +113,29 @@ if a<75:
         print("not eligible")"""
 #----------------------------------------------------------
  #my mini login system
-name=str(input("Enter name:"))
+'''name=str(input("Enter name:"))
 passward=int(input("Enter passward:"))
 if name=='Taskeen Zahra' and passward==786786:
     print("Login sucessfully")
 else:
-    print("Error")       
+    print("Error") ''' 
+#-------------------------------------------------------------------------------
+#================Nested Conditions=======================================================
+#in this code i will check the age and gimme permission only 18+ ppl for any ride kindda things...
+'''print("Welcome to my python world!!")
+n=str(input("Enter your name:"))
+age=int(input("enter your age:"))
+if age>=18:
+    c=str(input("show your cnic yes/no:"))
+    if c=='yes':
+        print(n,"congratulation u r my new victim in this python world") 
+    else:
+        print(n,"sorry next time")
+else:
+    print("tooooooo young for this T-T...") '''      
+#-----------------------------------------------------------------------
+ 
+
 
 
 
