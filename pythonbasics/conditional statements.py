@@ -134,7 +134,7 @@ if age>=18:
 else:
     print("tooooooo young for this T-T...") '''      
 #-----------------------------------------------------------------------
-# in this code piece i am going to share 
+# in this code piece i am going to 
 
 
 
