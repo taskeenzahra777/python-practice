@@ -134,7 +134,19 @@ if age>=18:
 else:
     print("tooooooo young for this T-T...") '''      
 #-----------------------------------------------------------------------
-# in this code piece i am going to 
+# in this code piece i am going to check correct ATM pin 
+'''atm=int(input('Enter ATM pin: '))
+if atm==7860:
+    balance=7000
+    print('your balance is 70000 rs')
+    if balance>=6000:
+        print("u are eligible for withdrawal.....")
+    else:
+        print('put some ammount in your account')
+if atm!=7860:
+    print("Error try again")
+'''
+#-----------------------------------------------------------------
 
 
 
