@@ -14,32 +14,11 @@ assign=int(input('Enter obtained marks in assignmemts out of 200: '))
 fi=int(input('Enter total family income:'))
 
 if o>=50:
-    if assign>=180:
-        if currentA>=75:
-                g='A'
-                status='Pass'
-                if fi<=40000:
-                     e="Eligible"
-                else:
-                     print('Not eligible for scholarship')
+   
 if o==45:
-    if assign>=100 and assign<=150:
-        if currentA>=75:
-                g='B'
-                status='Pass'
-                if fi<=40000:
-                     e="Yes"
-                else:
-                     print('Not eligible for scholarship')
+    
 if o<45:
-    if assign<100:
-        if currentA<75:
-                g='C'
-                status='Fail'
-                if fi<=40000:
-                     e="Yes"
-                else:
-                     print('Not eligible for scholarship')
+    
 
 
 print('=====================================================================================')
