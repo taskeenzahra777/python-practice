@@ -13,6 +13,12 @@ totalAssignment=200
 assign=int(input('Enter obtained marks in assignmemts out of 200: '))
 fi=int(input('Enter total family income:'))
 #------------------------------------------------------------------------------------
+print('=====================================================================================')
+print('                                      RESULT                                         ')
+print('=====================================================================================')
+print('Name:',name)
+print('Rollnumber:',r)
+print('Age:',a)
 if o>=50 and assign>=150:
    print('Grade: A')
    print('Status:Pass')
@@ -30,10 +36,5 @@ if fi<=40000:
 else:
     print('Not eligible!!')
 
-print('=====================================================================================')
-print('                                      RESULT                                         ')
-print('=====================================================================================')
-print('Name:',name)
-print('Rollnumber:',r)
-print('Age:',a)
+
 
