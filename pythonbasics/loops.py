@@ -16,14 +16,16 @@ for n in range(1,n+1):
     if n%2==0:
         evenS=evenS+n
         evcount=evcount+1
-        print('the sum of all even numbers is:',evenS)
-        print('the total even numbers are:',evcount)
-    elif n%2!=0:
+
+    else:
+        n%2!=0
         oddS=oddS+n
         odcount=odcount+1
-        print('the sum of all the odd numbers is',oddS)
-        print('the total odd numbers are:',odcount)
+     
 
-
+print('the sum of all even numbers is:',evenS)
+print('the total even numbers are:',evcount)
+print('the sum of all the odd numbers is',oddS)
+print('the total odd numbers are:',odcount)
 
 
