@@ -15,12 +15,16 @@ fi=int(input('Enter total family income:'))
 
 if o>=50:
    print('Grade: A')
+   print('Status:Pass')
 elif o==45:
     print('Grade:B')
+    print('Status:Pass')
 elif o<45:
     print('Grade:C')
+    print('Status:Pass')
 elif o>=20:
-    print('Grade:A')
+    print('Grade:F')
+    print('Status:Fail')
 else:
     print('Error')    
 
