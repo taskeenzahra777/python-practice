@@ -12,22 +12,20 @@ currentA=float(input('Enter attendance:'))
 totalAssignment=200
 assign=int(input('Enter obtained marks in assignmemts out of 200: '))
 fi=int(input('Enter total family income:'))
-
-if o>=50:
+#------------------------------------------------------------------------------------
+if o>=50 and assign>=150:
    print('Grade: A')
    print('Status:Pass')
-elif o==45:
+elif o>=45 and assign>=100:
     print('Grade:B')
     print('Status:Pass')
-elif o<45:
+elif o<45 and assign<=80:
     print('Grade:C')
-    print('Status:Pass')
-elif o>=20:
-    print('Grade:F')
     print('Status:Fail')
 else:
-    print('Error')    
-
+    print('Error')
+#------------------------------------------------------------------------------------    
+if 
 
 print('=====================================================================================')
 print('                                      RESULT                                         ')
@@ -35,6 +33,4 @@ print('=========================================================================
 print('Name:',name)
 print('Rollnumber:',r)
 print('Age:',a)
-print("Grade:",g)
-print('Status:',status)
-print('Eligibility for scholarship:',e)
+
