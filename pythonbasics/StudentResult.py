@@ -14,11 +14,15 @@ assign=int(input('Enter obtained marks in assignmemts out of 200: '))
 fi=int(input('Enter total family income:'))
 
 if o>=50:
-   
-if o==45:
-    
-if o<45:
-    
+   print('Grade: A')
+elif o==45:
+    print('Grade:B')
+elif o<45:
+    print('Grade:C')
+elif o>=20:
+    print('Grade:A')
+else:
+    print('Error')    
 
 
 print('=====================================================================================')
