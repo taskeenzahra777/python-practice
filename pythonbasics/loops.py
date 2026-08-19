@@ -28,9 +28,14 @@ print('the total even numbers are:',evcount)
 print('the sum of all the odd numbers is',oddS)
 print('the total odd numbers are:',odcount)'''
 #-------------------------------------------------------------------------------------
-n=int(input('Enter number 2: '))
+'''n=int(input('Enter number 2: '))
 print('The table of',n)
 for n in range(1,11):
     print(2,'*',n+0,'=',n*2)
-
+'''
+#---------------------------------------
+#table of any number
+num=int(input('Enter number:'))
+for i in range(1,11):
+    print(num,'*',i,'=',num*i)
 
