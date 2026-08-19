@@ -40,12 +40,14 @@ for i in range(1,11):
     print(num,'*',i,'=',num*i)'''
 #------------------------------------------------------------------------
 # squares and cubes of any numbers
-num=int(input('Enter number:'))
+'''num=int(input('Enter number:'))
 print('The square and cubes:')
 for i in range(1,num+1):
     print('number:',i)
     print('square:',i**2)
     print('cube:',i**3)
-    print('-------------------------')
+    print('-------------------------')'''
+#--------------------------------------------------------------------------
+
     
 
