@@ -41,10 +41,11 @@ for i in range(1,11):
 #------------------------------------------------------------------------
 # squares and cubes of any numbers
 num=int(input('Enter number:'))
-print('The square and cubes of',num)
-for i in range(1,10):
-    num**2
-    num**3
+print('The square and cubes:')
+for i in range(1,num+1):
+    print('number:',i)
+    print('square:',i**2)
+    print('cube:',i**3)
+    print('-------------------------')
+    
 
-print(num**2)
-print(num**3)
