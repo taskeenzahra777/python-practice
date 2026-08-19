@@ -6,7 +6,7 @@
 for n in range(1,n+1):
     print(n)'''
 #---------------------------------------------------
-n=int(input('Enter number: '))
+'''n=int(input('Enter number: '))
 evenS=0
 evcount=0
 oddS=0
@@ -26,6 +26,11 @@ for n in range(1,n+1):
 print('the sum of all even numbers is:',evenS)
 print('the total even numbers are:',evcount)
 print('the sum of all the odd numbers is',oddS)
-print('the total odd numbers are:',odcount)
+print('the total odd numbers are:',odcount)'''
+#-------------------------------------------------------------------------------------
+n=int(input('Enter number to see its table: '))
+print('The table of',n)
+for n in range(1,11):
+    print(2,'*',n+0,'=',n*2)
 
 
