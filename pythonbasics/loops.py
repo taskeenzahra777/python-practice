@@ -35,7 +35,16 @@ for n in range(1,11):
 '''
 #---------------------------------------
 #table of any number
-num=int(input('Enter number:'))
+'''num=int(input('Enter number:'))
 for i in range(1,11):
-    print(num,'*',i,'=',num*i)
+    print(num,'*',i,'=',num*i)'''
+#------------------------------------------------------------------------
+# squares and cubes of any numbers
+num=int(input('Enter number:'))
+print('The square and cubes of',num)
+for i in range(1,10):
+    num**2
+    num**3
 
+print(num**2)
+print(num**3)
