@@ -86,6 +86,6 @@ for i in range(1,n+1):
 print('the factorial of',n,'is',f)'''
 #------------------------------------------------------------------------
 #to check the positive or negative number...
-n=int(input('Enter the number:'))
-for i in range(1,n+1):
-    
+num=int(input('how many numberz u want to check:'))
+for i in range(num):
+    n=int(input('Enter the number:'))
