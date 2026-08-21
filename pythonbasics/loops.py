@@ -77,11 +77,25 @@ for i in range(1,n+1):
 print('The sum of all the even numbers from 1 to',n,'is:',sum)'''
 #---------------------------------------------------------------------------
 #take any number to print its factorial
-n=int(input('Enter the number:'))
+'''n=int(input('Enter the number:'))
 print('The factorial of number')
 f=1
 for i in range(1,n+1):
     f=f*i
     print(f)
-print('the factorial of',n,'is',f)
+print('the factorial of',n,'is',f)'''
+#------------------------------------------------------------------------
+#to check the positive or negative number...
+n=int(input('Enter the number:'))
+sum=0
+for i in range(1,n+1):
+    if i<0:
+        sum=sum+i
+        print('negative numberz')
+    elif i>0:
+          sum=sum+i
+          print('positive  numberz')
+    else:
+         print('Zero')
+
 
