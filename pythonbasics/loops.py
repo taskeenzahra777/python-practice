@@ -60,11 +60,21 @@ for i in range(1,num+1):
         print(i) ''' 
 #---------------------------------------------------------------
 #taking input from the user and printing thier sum
-n=int(input('Enter number:'))
+'''n=int(input('Enter number:'))
 sum=0
 for i in range(1,n+1):
     sum=sum+i
-print('The sum of all the value from 1 to',n,'is:',sum)
-
+print('The sum of all the value from 1 to',n,'is:',sum)'''
+#-------------------------------------------------------------------------------------
+#taking input from the user and printing the sum of just even numberz
+'''n=int(input('Enter the numer: '))
+even=0
+sum=0
+for i in range(1,n+1):
+    if i%2==0:
+        even=i
+        sum=sum+even
+print('The sum of all the even numbers from 1 to',n,'is:',sum)'''
+#---------------------------------------------------------------------------
 
 
