@@ -53,5 +53,9 @@ for i in range(1,n+1):
         if n>=10:
           print(n+i)'''
 #-----------------------------------------------------------------------------
-    
+num=int(input('Enter the number: '))
+print('Print only that number that is divisible by 3 only:')
+for i in range(1,num+1):
+    if num%3==0:
+        print(i)  
 
