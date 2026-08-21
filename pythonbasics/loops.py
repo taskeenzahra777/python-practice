@@ -76,5 +76,12 @@ for i in range(1,n+1):
         sum=sum+even
 print('The sum of all the even numbers from 1 to',n,'is:',sum)'''
 #---------------------------------------------------------------------------
-
+#take any number to print its factorial
+n=int(input('Enter the number:'))
+print('The factorial of number')
+f=1
+for i in range(1,n+1):
+    f=f*i
+    print(f)
+print('the factorial of',n,'is',f)
 
