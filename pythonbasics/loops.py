@@ -86,6 +86,14 @@ for i in range(1,n+1):
 print('the factorial of',n,'is',f)'''
 #------------------------------------------------------------------------
 #to check the positive or negative number...
-num=int(input('how many numberz u want to check:'))
+'''num=int(input('how many numberz u want to check:'))
 for i in range(num):
     n=int(input('Enter the number:'))
+    if n<0:
+        print('the number ',n,'is -tive')
+    elif n>0:
+        print('the number ',n,'is +tive')
+    else:
+            print('zero')'''
+#-----------------------------------------------------------------------------------
+
