@@ -53,10 +53,18 @@ for i in range(1,n+1):
         if n>=10:
           print(n+i)'''
 #-----------------------------------------------------------------------------
-num=int(input('Enter the number: '))
+'''num=int(input('Enter the number: '))
 print('Print only that number that is divisible by 3 only:')
 for i in range(1,num+1):
     if i%3==0:
-        print(i)  
+        print(i) ''' 
+#---------------------------------------------------------------
+#taking input from the user and printing thier sum
+n=int(input('Enter number:'))
+sum=0
+for i in range(1,n+1):
+    sum=sum+i
+print('The sum of all the value from 1 to',n,'is:',sum)
+
 
 
