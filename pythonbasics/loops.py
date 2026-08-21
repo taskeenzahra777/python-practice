@@ -87,15 +87,5 @@ print('the factorial of',n,'is',f)'''
 #------------------------------------------------------------------------
 #to check the positive or negative number...
 n=int(input('Enter the number:'))
-sum=0
 for i in range(1,n+1):
-    if n<0:
-        sum=sum+i
-    elif n>0:
-            sum=sum+i
-    else:
-            print('zero')
-
-print('-tive number',sum)       
-print('+tive number',sum) 
-
+    
