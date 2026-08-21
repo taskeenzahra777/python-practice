@@ -89,13 +89,13 @@ print('the factorial of',n,'is',f)'''
 n=int(input('Enter the number:'))
 sum=0
 for i in range(1,n+1):
-    if i<0:
+    if n<0:
         sum=sum+i
-        print('negative numberz')
-    elif i>0:
-          sum=sum+i
-          print('positive  numberz')
+    elif n>0:
+            sum=sum+i
     else:
-         print('Zero')
+            print('zero')
 
+print('-tive number',sum)       
+print('+tive number',sum) 
 
